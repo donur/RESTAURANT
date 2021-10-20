@@ -419,7 +419,7 @@ header .navbar a:hover {
 /* End of Review Section CSS Styles */
 
 
-/* Start of Order Section */
+/* Start of Order Section CSS Styles */
 .order .row{
   padding: 2rem;
   box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
@@ -476,7 +476,33 @@ header .navbar a:hover {
 .order .row form .btn:hover {
   background: var(--red);
 }
-/* End of Order Section */
+/* End of Order Section CSS Styles */
+
+
+/* Start of Footer Section CSS Styles */
+.footer {
+  background: #000;
+  text-align: center;
+}
+
+.footer .share {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.footer .credit {
+  padding: 2.5rem 1rem;
+  color: #fff;
+  font-weight: normal;
+  font-size: 2rem;
+}
+
+.footer .credit span {
+  color: var(--red);
+}
+/* End of Footer Section CSS Styles */
 
 
 
