@@ -30,10 +30,28 @@ body {
   background: #f7f7f7;
 }
 
+/* start of home section */
 section {
   padding: 2rem 9%;
 }
+/* end of home section */
 
+
+/* Start of Speciality Section */
+.heading {
+  text-align: center;
+  font-size: 3.5rem;
+  padding: 1rem;
+  color: #666;
+}
+
+.heading span {
+  color: var(--red);
+}
+/* End of Speciality Section */
+
+
+/* Start Home Section CSS Styles */
 .btn {
   display: inline-block;
   padding: .8rem 3rem;
@@ -68,6 +86,8 @@ section {
 .btn:hover {
   color: #fff;
 }
+/* End Home Section CSS Styles */
+
 
 /* Start of Head Section CSS Style */
 header {
@@ -117,6 +137,7 @@ header .navbar a:hover {
 /* End of Head Section CSS Style */
 
 
+/* Start of Home Content CSS Style */
 .home {
   display: flex;
   flex-wrap: wrap;
@@ -162,6 +183,69 @@ header .navbar a:hover {
   color: #666;
   padding: 1rem 0;
 }
+/* End of Home Content CSS Style */
+
+
+/* Start of Speciality Section CSS Style */
+.speciality .box-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.speciality .box-container .box {
+  flex: 1 1 30rem;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 .5rem .1rem rgba(0, 0, 0, .1);
+  border: .1rem solid rgba(0, 0, 0, .3);
+  cursor: pointer;
+  border-radius: .5rem;
+}
+
+.speciality .box-container .box .image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: -100%;
+  left: 0;
+}
+
+.speciality .box-container .box .content {
+  text-align: center;
+  background: #fff;
+  padding: 2rem;
+}
+
+.speciality .box-container .box .content img {
+  margin: 1.5rem 0;
+}
+
+.speciality .box-container .box .content h3 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.speciality .box-container .box .content p {
+  font-size: 1.6rem;
+  color: #666;
+  padding: 1rem 0;
+}
+
+.speciality .box-container .box:hover .image {
+  top: 0;
+}
+
+.speciality .box-container .box:hover .content {
+  transform: translate(100%);
+}
+/* End of Speciality Section CSS Style */
+
+
+
+
+
 
 
 
