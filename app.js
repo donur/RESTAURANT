@@ -1,3 +1,4 @@
+/* start of header section toggle */ 
 let menu = document.querySelector("#menu-bar");
 let navbar = document.querySelector(".navbar");
 
@@ -10,3 +11,6 @@ window.onscroll = () => {
   menu.classList.remove("fa-times");
   navbar.classList.remove("active");
 }
+/* end of header section toggle */ 
+
+
